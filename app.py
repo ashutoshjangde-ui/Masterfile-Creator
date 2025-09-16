@@ -5,9 +5,9 @@ from io import BytesIO
 
 st.title("📦 Masterfile Automation Tool")
 
-# File uploaders
-onboarding_file = st.file_uploader("Upload Onboarding Sheet (onboarding_real.xlsx)", type="xlsx")
-masterfile_file = st.file_uploader("Upload Masterfile Template (masterfile_real.xlsx)", type="xlsx")
+# File uploaders (labels updated)
+onboarding_file = st.file_uploader("Upload Onboarding Sheet (onboarding_real1.xlsx)", type="xlsx")
+masterfile_file = st.file_uploader("Upload Masterfile Template (masterfile_real1.xlsx)", type="xlsx")
 mapping_file = st.file_uploader("Upload Mapping File (mapping_real.json)", type="json")
 
 if onboarding_file and masterfile_file and mapping_file:
